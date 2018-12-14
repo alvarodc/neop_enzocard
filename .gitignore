@@ -1,0 +1,21 @@
+.vs/
+**/[Dd]ebug/
+**/[Rr]elease/
+*.suo
+*.user
+*.psess
+*.vsp
+*.scc
+*.vspscc
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Nuget
+/packages/
+!packages/repositories.config
+
+UpgradeLog*.XML
+UpgradeLog*.htm

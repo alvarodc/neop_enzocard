@@ -1,0 +1,81 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# These files are text and should be normalized (Convert crlf => lf)
+*.bff               text
+*.cpp               text
+*.h                 text
+*.hpp               text
+*.inl               text
+*.cs                text
+.rootpath           text
+*.sln               text
+*.vcxproj           text
+*.vcxproj.filters   text
+*.csproj            text
+*.csproj.filters    text
+*.rc                text
+*.bat               text
+*.cmd               text
+
+*.cs                diff=csharp
+*.c                 diff=cpp
+*.cpp               diff=cpp
+*.h                 diff=cpp
+*.hpp               diff=cpp
+*.inl               diff=cpp
+
+# These files are text and should be normalized (Convert crlf => lf)
+*.php               text
+*.css               text
+*.js                text
+*.htm               text
+*.html              text
+*.xml               text
+*.txt               text
+*.ini               text
+*.inc               text
+.htaccess           text
+*.htm               text
+*.html              text
+*.sh                text
+*.ssl               text
+*.txt               text
+*.vbs               text
+*.vi                text
+*.xsl               text
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.png               binary
+*.jpg               binary
+*.jpeg              binary
+*.gif               binary
+*.ico               binary
+*.mov               binary
+*.mp4               binary
+*.mp3               binary
+*.flv               binary
+*.fla               binary
+*.swf               binary
+*.gz                binary
+*.zip               binary
+*.7z                binary
+*.ttf               binary
+*.bmp               binary
+*.bz2               binary
+*.dll               binary
+*.exe               binary
+*.zip               binary
+
+# Documents
+*.doc               diff=astextplain
+*.DOC               diff=astextplain
+*.docx              diff=astextplain
+*.DOCX              diff=astextplain
+*.dot               diff=astextplain
+*.DOT               diff=astextplain
+*.pdf               diff=astextplain
+*.PDF               diff=astextplain
+*.rtf               diff=astextplain
+*.RTF               diff=astextplain 
