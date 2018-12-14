@@ -61,9 +61,9 @@ namespace neopenzocard {
 	std::vector<unsigned char> HexEncryption::BlockCopy(std::vector<unsigned char> arr)
 	{
 		const int size = 16;
-		int arrSize = arr.size();
+		size_t arrSize = arr.size();
 		std::vector<unsigned char> bytes(size);
-		for (int j = 0; j < size; ++j)
+		for (size_t j = 0; j < size; ++j)
 		{
 			bytes[j] = (j >= arrSize) ? 0 : arr[j];
 		}
